@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Descriptive Statistics</title>
+    <link rel="stylesheet" href="/../style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/lessons/placeholder.html">Topic</a></li>
+                <li><a href="/lessons/research.html">Research</a></li>
+                <li><a href="/lessons/data.html">Data</a></li>
+                <li><a href="/lessons/placeholder.html">References</a></li>
+                <li><a href="/lessons/placeholder.html">Style</a></li>
+                <li><a href="/lessons/placeholder.html">Layout</a></li>
+                <li><a href="/lessons/placeholder.html">Modality</a></li>
+                <li><a href="/lessons/placeholder.html">Professionalization</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Run descriptive statistics</h1>
+    <aside class="sidebar">
+        <p>
+            Analyzing descriptive statistics may lead you to ask new questions. For example, <em>perc_enjoy</em> is much
+            higher on average than <em>perc_usefulness</em>, which also has a large variance. This suggests that a
+            segment of users may not have considered the system useful even though they enjoyed using it.
+        </p>
+    </aside>
+
+    <p>
+        Run descriptive (summary) statistics on the dataset and output results in a new spreadsheet. If necessary,
+        rearrange columns so that data requiring summary, those with <strong class="blue">continuous</strong> values, are adjacent.
+        (In the spreadsheet, the continuous values of <em>perc_enjoy</em>, <em>perc_usefulness</em>, and
+        <em>perc_ease_of_use</em> are already adjacent.)
+    </p>
+    <p>
+        Write down the "input range" (i.e. H2:J26) of the data requiring summary, making sure not to include variable
+        labels.
+    </p>
+    <ol>
+        <li>
+            Go to <strong>Tools > Add-Ins...</strong> and make sure <strong>Analysis ToolPak</strong> is checked. Click
+            OK.
+        </li>
+        <li>
+            Go to <strong>Tools > Data Analysis</strong> and select <strong>Descriptive Statistics</strong>. Click OK.
+        </li>
+        <li>
+            Enter the input range in the blank and check <strong>Summary Statistics</strong>. Click OK.
+        </li>
+    </ol>
+    <p>
+        The descriptive statistics summary will output in a new sheet. Rename this spreadsheet Descriptive_Stats. Label
+        the output according to the variables. For example, <em>Column 1</em> should be <em>perc_enjoy</em>. Your
+        Descriptive_Stats spreadsheet should now look like Figure 4.
+        Analyzing descriptive statistics is a great way to start appraising a dataset before running inferential
+        statistics. What insights about the dataset can you glean from the summary statistics for
+        <em>perc_usefulness</em> and <em>perc_ease_of_use</em>?
+    </p>
+    <aside>
+        <figure>
+            <img src="/images/datalesson_fig4.png" alt="An example showing the necessity of numeric characters for descriptive statistics, as otherwise it will not run properly.">
+            <figcaption>
+                <strong>Figure 4</strong>: Excel will not run descriptive statistics with non-numeric characters, so the variable labels must be
+                re-entered.
+            </figcaption>
+        </figure>
+    </aside>
+
+    <footer>
+        <nav>
+            <p class="previous">← <a href="formatting_data.html">Format Data for Analysis</a></p>
+            <p class="next"><a href="./running_inferential.html">Run Inferential Statistics</a> →</p>
+        </nav>
+    </footer>
+</body>
+
+</html>

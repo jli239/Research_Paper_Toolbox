@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeholder Page</title>
+    <!-- Change this to the title of the content, which will be displyed in the tab's name. -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/lessons/placeholder.html">Topic</a></li>
+                <li><a href="/lessons/research.html">Research</a></li>
+                <li><a href="/lessons/data.html">Data</a></li>
+                <li><a href="/lessons/placeholder.html">References</a></li>
+                <li><a href="/lessons/placeholder.html">Style</a></li>
+                <li><a href="/lessons/placeholder.html">Layout</a></li>
+                <li><a href="/lessons/placeholder.html">Modality</a></li>
+                <li><a href="/lessons/placeholder.html">Professionalization</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===================================================================== -->
+    <!-- General Page Layout -->
+
+    <main> <!-- If there is a summary/main idea for the page. Place it here. -->
+        <h1>Main heading for this page</h1> <!-- header 1 should only be used one -->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corporis, dolores quis dicta non
+            temporibus, doloribus maiores nihil, atque repellat ex minima neque libero tempora accusamus eum nam facere
+            architecto.
+        </p>
+    </main>
+
+    <h2>Subheadings</h2>
+    <!-- From here on, headings 2 and lower can be used repeatedly. Make sure to structure them in a hierarchal order from most important to least important. -->
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nostrum adipisci tempora rerum. Fugit
+        error beatae, ut dolore sit maiores illo molestias ipsam, fugiat aspernatur temporibus veniam dignissimos? Nam,
+        quidem.
+    </p>
+
+    <!-- Now, time to split up the content into several pages for easier readability by the audience! -->
+    <nav>
+        <ul>
+            <li>
+                <!-- A note on linking. When you create new pages for the contents, make sure to put them under a new folder. That way, the code is more organized. -->
+                <a href="/lessons/new_folder_name/new_file_name.html">Sample 1</a>
+                <ul>
+                    <li>Additional context can go here</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
+            </li>
+            <li>
+                <a href="/lessons/new_folder_name/new_file_name.html">Sample 2</a>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
+            </li>
+            <li>
+                <a href="/lessons/new_folder_name/new_file_name.html">Sample 3</a>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
+            </li>
+            <li>
+                <a href="/lessons/new_folder_name/new_file_name.html">Sample 4</a>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
+            </li>
+            <li>
+                <a href="/lessons/new_folder_name/new_file_name.html">Sample 5</a>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Bottom Page Navigation (subpages) -->
+    <footer>
+        <nav>
+            <p class="previous">← <a href="./previous/page/here.html">Previous Page</a></p>
+            <p class="next"><a href="./next/page/here.html">Next Page</a> →</p>
+        </nav>
+    </footer>
+
+    <!-- ====================================================================== -->
+    <!-- More Specific Page Elements -->
+    <h2>Different Elements</h2>
+
+    <!-- Ordered List-->
+    <ol>
+        <li>element 1</li>
+        <li>element 2</li>
+        <li>element 3</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <ul>
+        <li>element 1</li>
+        <li>element 2</li>
+        <li>element 3</li>
+    </ul>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>Sidebar Title</h2>
+        <p>More context</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, maiores.</p>
+    </aside>
+
+    <!-- Images -->
+    <aside>
+        <figure> <!-- Recommended to put images in the images folder to keep things organized. -->
+            <img src="/images/image/file/path/here"
+                alt="Descriptive text of the image. Important to ensure accessability access for those who need it. Also shows up if image fails to appear, like it is now.">
+            <figcaption>
+                Caption can go here if necessary.
+            </figcaption>
+        </figure>
+    </aside>
+
+    <!-- Page Navigation -->
+    <a href="./file/path/goes/here">Another Page</a>
+    <!-- If current file and file you want to access is within same order, ./file/path/goes/here should work. If current file and file you want to access if not in the same order, use /../file/path/goes/here.-->
+
+    <!-- text that stands out -->
+    <p><strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolore.</strong></p>
+
+    <!-- blue text that stands out even more -->
+     <p><strong class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, asperiores.</strong></p>
+
+    <!-- text that adds stress -->
+    <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, debitis.</em></p>
+
+    <!-- Downloadable File -->
+    <p>
+        Download a file <a href="/path/to/file" download>file_name</a> Thank you for downloading!
+    </p>
+
+    <!-- Link to another page -->
+    <a href="URL_GOES_HERE" target="_blank">Text for link</a>
+    <!-- the 'target="_blank"' attribute opens the page in a new tab. If opening the page in the current tab is preferred, remove the attribute.-->
+
+</body>
+
+</html>
